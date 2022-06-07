@@ -91,6 +91,21 @@ def function_homework4():
     else:
         print("unbelievable")
         print("history of increments", d)
+        
 
 
 function_homework4()
+
+from random import randint
+
+
+def random_list(a, b, c):
+    w = [randint(a, b) for i in range(c)]
+    print(w)
+
+
+x = int(input("start of range: "))
+y = int(input("end of range: "))
+z = int(input("numerical list: "))
+
+random_list(int(x), int(y), int(z))
